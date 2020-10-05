@@ -1,0 +1,102 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.menu__container {
+  background-color: black;
+}
+
+.red_word {
+  color: white;
+}
+
+.menu__center {
+  padding: 30px;
+  padding-right: 70px;
+}
+
+.our_menu {
+  color: #ec1d26;
+  font-size: 30px;
+  display: flex;
+  position: relative;
+  /* border: 1px solid red; */
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  top: 60px;
+}
+
+.menu__item {
+  background-color: black;
+  color: #ec1d26;
+  border-bottom: 1px solid #ec1d26;
+  top: 80px;
+  padding: 20px !important;
+  width: 100%;
+  display: grid;
+}
+
+.menu__imageContainer {
+  position: relative;
+  /* border: 1px solid red; */
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+}
+
+.menu__image {
+  position: absolute;
+  object-fit: contain;
+  /* height: fit-content; */
+  width: 100%;
+  height: 60vh;
+  opacity: 0.5;
+  /* top: -100px; */
+  background-image: url("https://raster-static.postmates.com/?url=com.postmates.img.prod.s3.amazonaws.com/753ae794-c4ab-4c66-990e-335c7d740c3b/orig.jpg&quality=90&w=1500&h=900&mode=crop&format=jpg&v=4");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.menu__items {
+  display: flex;
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.menu__itemAndPrice {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__items h1 {
+  color: white;
+  padding: 5px;
+}
+
+.menu__menuSelection {
+  text-transform: uppercase;
+}
+
+.menu__collapse {
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+
+.menu__food {
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .menu__items h1 {
+    font-size: 25px;
+  }
+}

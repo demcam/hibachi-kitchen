@@ -1,0 +1,112 @@
+.main_section {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background: black;
+  /* border: 1px solid blue; */
+}
+
+.hibachi {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.red_word {
+  color: #ec1d26 !important;
+}
+
+.main_section__text h1 {
+  text-align: center;
+  padding-top: 350px !important;
+  /* padding-left: 100px; */
+  position: relative;
+  z-index: 0;
+  /* border: 1px solid red; */
+  font-size: 60px;
+  color: white;
+}
+
+.main_section__text p {
+  text-align: center;
+  /* padding-left: 100px; */
+  position: relative;
+  z-index: 0;
+  /* border: 1px solid red; */
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+.main_section img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.main_section__buttons {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.main_section__buttons button {
+  margin-top: 75px;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  /* border: 2px solid blue; */
+}
+
+.main_section__buttons button:hover {
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.125) !important;
+}
+
+.main_section__reservations {
+  background: white !important;
+  color: #ec1d26 !important;
+}
+
+.main_section__orderNow {
+  background-color: #ec1d26 !important;
+  color: #222021 !important;
+}
+
+.main_section__arrowDiv {
+  position: absolute;
+  width: 99.8% !important;
+  /* border: 1px solid red; */
+  bottom: 0;
+  color: #ec1d26;
+  text-align: center;
+}
+
+.main_section__arrow {
+  font-size: 50px !important;
+  cursor: pointer;
+}
+
+.main_section__arrow:hover {
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.12) !important;
+}
+
+@media (max-width: 1000px) {
+  .main_section__text h1 {
+    padding-top: 350px !important;
+    font-size: 50px !important;
+    /* margin-right: 100px; */
+  }
+}

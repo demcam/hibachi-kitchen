@@ -1,0 +1,98 @@
+.findUs {
+  /* border: 1px solid red; */
+  height: 110vh;
+  background-color: rgba(0, 0, 0, 0.945);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.findUs__info {
+  /* border: 1px solid red; */
+  flex: 0.1;
+  padding: 80px;
+  text-align: center;
+  color: #ec1d26;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.findUs__map {
+  /* border: 1px solid blue; */
+  flex: 0.9;
+  padding: 50px;
+}
+
+.findUs__locate {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-bottom: 35px;
+}
+
+.findUs__myLocation {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.findUs__myLocation p {
+  padding-right: 10px;
+  color: #ec1d26;
+  letter-spacing: 1px;
+}
+
+.myLocation__search {
+  background-color: white !important;
+  padding: 10px;
+  border: none;
+  color: #222021;
+  text-transform: uppercase;
+  outline: none;
+  padding-left: 2px;
+}
+
+.myLocation__search::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  color: #ec1d26 !important;
+}
+
+.findUs__searchIcon {
+  color: #ec1d26;
+  background-color: white;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.findUs__nearestHibachi {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.findUs__nearestHibachi p {
+  padding-right: 10px;
+  color: #ec1d26;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+  .findUs__locate {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .findUs__myLocation {
+    padding: 20px;
+  }
+}
